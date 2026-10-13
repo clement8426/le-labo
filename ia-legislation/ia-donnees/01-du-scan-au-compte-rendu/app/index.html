@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:," />
+    <title>Du scan au compte rendu</title>
+  </head>
+  <body>
+    <main class="shell">
+      <header class="page-header">
+        <div>
+          <p class="eyebrow">Atelier IA & données · démonstration locale</p>
+          <h1>Du scan au compte rendu</h1>
+          <p class="lede">Trois blocs reliés : lire un document, transcrire une note, préparer un compte rendu.</p>
+        </div>
+        <span class="fiction-badge">Données fictives uniquement</span>
+      </header>
+
+      <div class="notice" role="note">
+        Les PDF et les fichiers audio restent dans ce navigateur. Au premier usage, les modèles et certains composants de calcul sont téléchargés. Le compte rendu de cette version est un <strong>aperçu local</strong> : aucun appel à Infomaniak n’est effectué.
+      </div>
+
+      <section class="flow" aria-label="Chaîne de traitement">
+        <div class="local-group">
+          <div class="group-heading">
+            <h2>Sur ton ordinateur</h2>
+            <span>Deux entrées indépendantes</span>
+          </div>
+          <div class="local-blocks">
+            <article class="block" id="document-block">
+              <div class="block-number">Bloc 01 <span class="port-dot" aria-hidden="true"></span></div>
+              <h3>Lire le document</h3>
+              <p class="block-description">Le PDF est transformé en images, puis lu par un moteur OCR.</p>
+              <label for="document-file">PDF scanné fictif</label>
+              <input id="document-file" type="file" accept="application/pdf,.pdf" />
+              <label for="ocr-engine">Moteur OCR</label>
+              <select id="ocr-engine">
+                <option value="paddle">PaddleOCR (PP-OCRv6 small)</option>
+                <option value="tesseract">Tesseract.js (français + allemand)</option>
+              </select>
+              <button id="run-document" type="button">Lire le PDF</button>
+              <p id="document-status" class="status" role="status">En attente d’un PDF.</p>
+              <label for="document-text">Texte extrait — corrigeable</label>
+              <textarea id="document-text" rows="12" placeholder="Le texte OCR apparaîtra ici. Tu peux le corriger avant la suite."></textarea>
+              <p id="document-time" class="metric">Temps : — · Traitement local</p>
+            </article>
+
+            <article class="block" id="voice-block">
+              <div class="block-number">Bloc 02 <span class="port-dot" aria-hidden="true"></span></div>
+              <h3>Transcrire la note</h3>
+              <p class="block-description">Parle dans le micro, puis compare les modèles de transcription sur le même audio. Tout est traité localement.</p>
+              <label for="voice-engine">Moteur et modèle STT</label>
+              <select id="voice-engine" aria-describedby="voice-model-help"></select>
+              <p id="voice-model-help" class="status"></p>
+              <div class="recorder">
+                <div class="recorder-heading"><span>Enregistrement direct</span><span id="record-time">00:00</span></div>
+                <canvas id="voice-waveform" class="waveform" role="img" aria-label="Forme d’onde du microphone"></canvas>
+                <button id="record-voice" class="record-button" type="button" aria-pressed="false"><span class="record-icon" aria-hidden="true"></span><span id="record-label">Enregistrer au micro</span></button>
+                <audio id="voice-preview" controls hidden aria-label="Réécouter la note enregistrée"></audio>
+                <p id="voice-audio-info" class="metric">Audio : — · 90 secondes maximum</p>
+              </div>
+              <label for="voice-file">Ou importer une note vocale fictive</label>
+              <input id="voice-file" type="file" accept="audio/*,.m4a,.mp3,.wav,.webm" />
+              <label for="voice-language">Langue de la note</label>
+              <select id="voice-language">
+                <option value="french">Français</option>
+                <option value="german">Allemand</option>
+              </select>
+              <button id="run-voice" type="button">Transcrire le fichier importé</button>
+              <p id="voice-status" class="status" role="status">En attente d’un audio ou d’une saisie.</p>
+              <label for="voice-text">Transcription — corrigeable</label>
+              <textarea id="voice-text" rows="12" placeholder="La transcription apparaîtra ici, ou saisis une note fictive directement."></textarea>
+              <p id="voice-time" class="metric">Temps : — · Traitement local</p>
+            </article>
+          </div>
+        </div>
+
+        <div class="flow-arrow" aria-hidden="true"><span>OCR</span><span>VOIX</span><strong>→</strong></div>
+
+        <div class="report-group">
+          <div class="group-heading">
+            <h2>Sortie</h2>
+            <span>Aperçu local pour l’instant</span>
+          </div>
+          <article class="block report-block" id="report-block">
+            <div class="block-number">Bloc 03 <span class="port-dot" aria-hidden="true"></span></div>
+            <h3>Préparer le compte rendu</h3>
+            <p class="block-description">Les deux textes arrivent ici. Cette version les rassemble sans inventer de faits.</p>
+            <div class="connection-list" aria-label="Entrées du bloc">
+              <span>↳ Document OCR</span>
+              <span>↳ Note vocale</span>
+            </div>
+            <button id="run-report" type="button">Créer l’aperçu local</button>
+            <p id="report-status" class="status" role="status">En attente des textes.</p>
+            <label for="report-text">Aperçu à relire</label>
+            <textarea id="report-text" rows="19" readonly placeholder="Le compte rendu préparatoire apparaîtra ici."></textarea>
+            <p id="report-time" class="metric">Temps : — · Aucun appel API</p>
+          </article>
+        </div>
+      </section>
+
+      <footer>Chaque bloc a une entrée, une sortie et une seule responsabilité. Une relecture humaine reste nécessaire.</footer>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,24 @@
+{
+  "name": "du-scan-au-compte-rendu",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "models:vosk": "node scripts/prepare-vosk.js"
+  },
+  "dependencies": {
+    "@huggingface/transformers": "^4.3.0",
+    "@paddleocr/paddleocr-js": "^0.4.2",
+    "pdfjs-dist": "^6.3.289",
+    "tesseract.js": "^7.0.0",
+    "vosk-browser": "^0.0.8"
+  },
+  "devDependencies": {
+    "fflate": "^0.8.3",
+    "tar": "^7.5.22",
+    "vite": "^8.3.1"
+  }
+}

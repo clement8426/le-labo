@@ -1,0 +1,17 @@
+# Dépendances, compilations et modèles téléchargés
+node_modules/
+dist/
+**/public/models/
+
+# Secrets et fichiers temporaires
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+Thumbs.db
+
+# Jamais de solutions ni de notes du formateur dans ce dépôt public
+SOLUTIONS.md
+**/formateur/
+**/corrige/
