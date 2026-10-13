@@ -20,7 +20,7 @@ Le dossier [`fichiers/`](fichiers/) contient douze documents de l'étude d'avoca
 |---|---|---|
 | `brochure-etude.pdf` | PDF | La relire et la raccourcir pour le site |
 | `conditions-generales.txt` | Texte | La traduire en allemand |
-| `modele-lettre-relance.txt` | Texte | Un ton plus aimable |
+| `annonce-emploi.txt` | Texte | La rendre plus attrayante |
 | `cv-candidate.pdf` | PDF | Préparer les questions de l'entretien d'embauche |
 | `budget-2027.csv` | Tableur | Des graphiques pour la séance des associés |
 | `contrat-bail-bureaux.pdf` | PDF | Un résumé des clauses importantes |
