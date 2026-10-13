@@ -25,3 +25,7 @@ L'arborescence suit celle du site : `thème/cours/exercice`.
 1. **Uniquement des données fictives.** Les personnes, les entreprises et les documents des exercices sont inventés. N'y mettez jamais les vôtres.
 2. **Sur un site qui n'est pas le vôtre**, un agent s'arrête avant chaque envoi (formulaire, commande, inscription).
 3. **Relisez toujours** ce qu'une IA a produit : elle se trompe, surtout sur les noms, les dates et les chiffres.
+
+## Licence
+
+Le code est sous licence MIT ; les textes, exercices et documents fictifs sont sous licence CC BY-NC 4.0 : réutilisables en citant « Le Labo, Clément Bastien », mais pas pour un usage commercial. Détails dans [`LICENSE.md`](LICENSE.md).
