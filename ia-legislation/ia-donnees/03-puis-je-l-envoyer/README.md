@@ -8,9 +8,11 @@
 
 Peu importe le format : c'est le contenu qui compte. Trois questions, dans l'ordre :
 
-1. **Est-ce médical, intime, ou couvert par un secret professionnel ?** Si oui : **rouge**. Sur l'ordinateur, ou une IA hébergée en Suisse sous contrat. Jamais un chat grand public.
+1. **Est-ce de la santé, un secret professionnel, ou une autre donnée sensible ?** Si oui : **rouge**. Sur l'ordinateur, ou une IA hébergée en Suisse sous contrat. Jamais un chat grand public.
 2. **Est-ce réservé à certaines personnes, ou cela parle-t-il de quelqu'un ?** Si non : **vert**, n'importe quel outil.
-3. **Peut-on vraiment l'anonymiser, sans perdre ce qui sert ?** Si oui : **vert après anonymisation**. Sinon : **orange**, une offre entreprise sous contrat, ou une IA hébergée en Suisse.
+3. **Peut-on vraiment l'anonymiser, sans perdre ce qui sert ?** Si oui : **orange, anonymiser d'abord**, puis n'importe quel outil. Sinon : **orange, contrat ou IA suisse** : une offre entreprise sous contrat, ou une IA hébergée en Suisse.
+
+En résumé : **vert** = aucune précaution ; **orange** = une précaution avant d'envoyer (anonymiser, ou un contrat, ou une IA suisse) ; **rouge** = jamais un chat grand public.
 
 ## Les fichiers
 
@@ -36,7 +38,7 @@ Le dossier [`fichiers/`](fichiers/) contient douze documents de l'étude d'avoca
 1. **Ouvrez chaque fichier** et lisez-le vraiment, jusqu'au bout et jusqu'à l'arrière-plan.
 2. **Posez les trois questions**, dans l'ordre, et notez la couleur et l'outil qui convient.
 3. **Vérifiez vos réponses** avec la version en ligne : [Puis-je l'envoyer à une IA ?](https://plateforme-cours-three.vercel.app/ia-legislation/ia-donnees/demos/puis-je-l-envoyer/). Elle explique chaque cas.
-4. **Pour les fichiers rouges ou orange**, cherchez ce qu'il faudrait changer pour qu'ils deviennent verts : retirer une colonne, recadrer une capture, généraliser un CV. Est-ce toujours possible ?
+4. **Pour les fichiers rouges ou orange**, cherchez ce qu'il faudrait changer pour qu'on puisse les envoyer sans précaution (verts) : retirer une colonne, recadrer une capture, généraliser un CV. Est-ce toujours possible ?
 
 ## C'est réussi si…
 

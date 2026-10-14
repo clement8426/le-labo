@@ -19,8 +19,10 @@ Une étude d'avocats fictive à Neuchâtel, avec des clients en Suisse, en Franc
 
 Peu importe le format (PDF, tableur, photo, audio) : c'est le contenu qui compte.
 
-1. **Est-ce médical, intime, ou couvert par un secret professionnel ?** Si oui : **rouge**. Sur l'ordinateur, ou une IA hébergée en Suisse sous contrat. Jamais un chat grand public.
+1. **Est-ce de la santé, un secret professionnel, ou une autre donnée sensible ?** Si oui : **rouge**. Sur l'ordinateur, ou une IA hébergée en Suisse sous contrat. Jamais un chat grand public.
 2. **Est-ce réservé à certaines personnes, ou cela parle-t-il de quelqu'un ?** Si non : **vert**, n'importe quel outil.
-3. **Peut-on vraiment l'anonymiser, sans perdre ce qui sert ?** Si oui : anonymiser d'abord, puis envoyer. Sinon : **orange**, une offre entreprise sous contrat, ou une IA hébergée en Suisse.
+3. **Peut-on vraiment l'anonymiser, sans perdre ce qui sert ?** Si oui : **orange, anonymiser d'abord**, puis n'importe quel outil. Sinon : **orange, contrat ou IA suisse** : une offre entreprise sous contrat, ou une IA hébergée en Suisse.
+
+En résumé : **vert** = aucune précaution ; **orange** = une précaution avant d'envoyer (anonymiser, ou un contrat, ou une IA suisse) ; **rouge** = jamais un chat grand public.
 
 Support pédagogique, pas un avis juridique.

@@ -18,7 +18,7 @@ Pensez à votre travail, ou à une activité que vous connaissez. Listez cinq do
 
 Pour chacun, posez les trois questions, dans l'ordre :
 
-1. Est-ce médical, intime, ou couvert par un secret professionnel ?
+1. Est-ce de la santé, un secret professionnel, ou une autre donnée sensible ?
 2. Est-ce réservé à certaines personnes, ou cela parle-t-il de quelqu'un ?
 3. Peut-on vraiment l'anonymiser, sans perdre ce qui sert ?
 
