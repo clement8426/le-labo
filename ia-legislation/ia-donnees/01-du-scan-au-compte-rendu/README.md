@@ -4,6 +4,8 @@
 
 **Durée** : 30 minutes avec l'application, 10 minutes pour la version courte.
 
+**L'application, sans rien installer** : [clement8426.github.io/le-labo/scan-et-voix](https://clement8426.github.io/le-labo/scan-et-voix/). Elle tourne dans votre navigateur : vos documents ne quittent pas l'ordinateur.
+
 ## Ce qu'il y a dans ce dossier
 
 - `scans/` : trois documents fictifs, volontairement abîmés.
@@ -22,11 +24,12 @@ Tout est inventé : le client, l'entreprise, la clinique, l'assurance.
 
 - Un ordinateur récent, avec Chrome ou Edge.
 - Une connexion internet **la première fois** : l'application télécharge ses modèles (plusieurs centaines de Mo, quelques minutes). Vos documents, eux, ne sont jamais envoyés.
-- Pour installer l'application : un **agent IA** (Claude Code, Codex…) qui le fait pour vous avec le prompt ci-dessous. Si vous êtes à l'aise avec le terminal, `app/README.md` explique comment faire à la main.
+- Rien à installer : ouvrez [l'application en ligne](https://clement8426.github.io/le-labo/scan-et-voix/). Seul Vosk n'y est pas proposé, ses modèles sont trop lourds pour être publiés.
+- En option, pour avoir aussi Vosk : installer l'application sur votre ordinateur avec un **agent IA** (Claude Code, Codex…) et le prompt plus bas. Si vous êtes à l'aise avec le terminal, `app/README.md` explique comment faire à la main.
 
-Pas d'agent ? Faites la **version courte** : elle ne demande rien à installer.
+Peu de temps ? Faites la **version courte** : elle n'utilise que les outils de votre ordinateur.
 
-## La version courte, sans rien installer (10 min)
+## La version courte, sans l'application (10 min)
 
 Votre ordinateur sait déjà lire le texte d'un scan, sans internet.
 
@@ -38,7 +41,11 @@ Votre ordinateur sait déjà lire le texte d'un scan, sans internet.
 
 ## La version complète, avec l'application (30 min)
 
-### Le prompt à copier dans votre agent
+Ouvrez [l'application en ligne](https://clement8426.github.io/le-labo/scan-et-voix/), puis suivez les étapes ci-dessous.
+
+### En option : installer l'application avec un agent
+
+Utile pour essayer aussi Vosk, ou pour travailler sans dépendre du site. Copiez ce prompt dans votre agent :
 
 ```
 Récupère le dépôt https://github.com/clement8426/le-labo et ouvre le dossier
@@ -55,7 +62,7 @@ N'envoie aucun fichier à un service en ligne : tout doit rester sur cet ordinat
    - Comparez chaque texte avec le scan. Regardez surtout les noms, les dates et le côté blessé. Notez chaque erreur, même petite.
 2. **Transcrire une note vocale.**
    - Importez `audio/note-vocale.wav`, ou enregistrez-vous au micro en lisant la note ci-dessous. Transcrivez avec Whisper Small.
-   - Changez de modèle (Whisper Base, puis Vosk) et cliquez sur **Retranscrire cet audio**, sans reparler.
+   - Changez de modèle (Whisper Base, puis Vosk si vous avez installé l'application) et cliquez sur **Retranscrire cet audio**, sans reparler.
    - Quel modèle oublie un mot ? Lequel se trompe sur la date ?
 3. **Assembler.**
    - Corrigez les deux textes, puis cliquez sur **Créer l'aperçu local**.

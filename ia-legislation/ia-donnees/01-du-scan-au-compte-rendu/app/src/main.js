@@ -2,7 +2,7 @@ import './styles.css';
 import { Workflow } from './workflow.js';
 import { OcrBlock } from './ocr-block.js';
 import { VoiceBlock } from './voice-block.js';
-import { STT_MODELS } from './stt-models.js';
+import { STT_MODELS, EN_LIGNE } from './stt-models.js';
 import { ReportBlock } from './report-block.js';
 import { MicrophoneRecorder } from './microphone-recorder.js';
 import { drawWaveform } from './waveform.js';
@@ -23,7 +23,9 @@ const voicePreview = element('voice-preview');
 const voiceEngine = element('voice-engine');
 const voiceLanguage = element('voice-language');
 for (const [value, model] of Object.entries(STT_MODELS)) {
-  voiceEngine.add(new Option(model.label, value));
+  const option = new Option(EN_LIGNE && model.onlineLabel ? model.onlineLabel : model.label, value);
+  option.disabled = EN_LIGNE && Boolean(model.onlineLabel);
+  voiceEngine.add(option);
 }
 function updateModelHelp() {
   element('voice-model-help').textContent = STT_MODELS[voiceEngine.value].description;

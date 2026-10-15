@@ -1,4 +1,7 @@
 // Le bloc voix dépend de cette interface commune, pas d'un moteur particulier.
+// La version en ligne (GitHub Pages) ne publie pas les modèles Vosk (90 Mo).
+export const EN_LIGNE = import.meta.env.VITE_EN_LIGNE === '1';
+
 export const STT_MODELS = {
   'whisper-small': {
     label: 'Whisper Small',
@@ -13,6 +16,7 @@ export const STT_MODELS = {
   'vosk-small': {
     label: 'Vosk Small',
     description: 'Autre moteur open source, léger et local. Modèle français 0.22 ou allemand 0.15 ; texte sans ponctuation automatique.',
+    onlineLabel: 'Vosk Small (version installée seulement)',
   },
 };
 
@@ -51,6 +55,7 @@ export class VoskAdapter {
   constructor() { this.model = null; this.language = null; }
 
   async transcribe(samples, language, onProgress) {
+    if (EN_LIGNE) throw new Error('Vosk est disponible seulement dans la version installée de l’application.');
     if (!VOSK_FILES[language]) throw new Error('Cette langue n’est pas disponible pour Vosk.');
     if (!this.model || this.language !== language) {
       await this.dispose();

@@ -2,6 +2,10 @@
 
 Première version de la démonstration de l’atelier « IA, données et responsabilité ». L’interface montre trois blocs reliés : OCR d’un PDF, transcription d’une note vocale et préparation d’un aperçu. Les blocs ont chacun une entrée, une sortie et une responsabilité ; leurs connexions sont décrites dans `src/main.js`.
 
+## Version en ligne
+
+L'application est publiée sur [clement8426.github.io/le-labo/scan-et-voix](https://clement8426.github.io/le-labo/scan-et-voix/) par le workflow `.github/workflows/scan-et-voix.yml`, à chaque modification de ce dossier sur `main`. Le build y est lancé avec `VITE_EN_LIGNE=1` : Vosk apparaît alors comme « version installée seulement », car ses modèles ne sont pas publiés. `vite.config.js` retire du build les fichiers WebAssembly d'onnxruntime (52 Mo) : transformers.js et PaddleOCR les chargent depuis jsDelivr.
+
 ## Démarrer
 
 Il faut Node.js 20.19+ et un navigateur récent (Chrome ou Edge conseillés).

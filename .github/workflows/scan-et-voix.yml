@@ -1,0 +1,58 @@
+# Publie l'application de l'exercice « Du scan au compte rendu » sur GitHub Pages :
+# https://clement8426.github.io/le-labo/scan-et-voix/
+# Prérequis (une fois) : Settings → Pages → Source : GitHub Actions.
+name: Application « Du scan au compte rendu »
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ia-legislation/ia-donnees/01-du-scan-au-compte-rendu/app/**
+      - .github/workflows/scan-et-voix.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ia-legislation/ia-donnees/01-du-scan-au-compte-rendu/app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+          cache-dependency-path: ia-legislation/ia-donnees/01-du-scan-au-compte-rendu/app/package-lock.json
+      - run: npm ci
+      # VITE_EN_LIGNE masque Vosk : ses modèles (90 Mo) ne sont pas publiés.
+      - run: npx vite build --base /le-labo/scan-et-voix/
+        env:
+          VITE_EN_LIGNE: '1'
+      - name: Préparer le site
+        run: |
+          mkdir -p "$GITHUB_WORKSPACE/_site"
+          mv dist "$GITHUB_WORKSPACE/_site/scan-et-voix"
+          printf '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=scan-et-voix/"><a href="scan-et-voix/">Du scan au compte rendu</a>\n' > "$GITHUB_WORKSPACE/_site/index.html"
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}scan-et-voix/
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
