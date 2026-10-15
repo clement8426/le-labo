@@ -20,7 +20,8 @@ Sans agent : téléchargez le dépôt (bouton « Code », puis « Download ZIP �
 
 1. **Remplissez le formulaire**, chrono lancé, avec une adresse **fictive** en Suisse. Jamais vos vraies coordonnées.
 2. **Notez tout ce qui vous gêne**, même un détail : ce qui ralentit, ce qui fait douter, ce qui énerve. L'écran est soigné : cherchez ailleurs.
-3. **Corrigez avec l'IA** : dites à votre agent ce que vous avez repéré, avec les clés de [`../prompts/six-blocs.md`](../prompts/six-blocs.md), et demandez-lui de corriger ce que vous avez repéré, **défaut par défaut**.
+3. **Corrigez avec l'IA** : donnez à votre agent les clés de [`../prompts/six-blocs.md`](../prompts/six-blocs.md) et la liste de ce qui vous a gêné, puis demandez-lui de corriger **défaut par défaut**.
+   - **Pas d'agent ?** Ouvrez `index.html`, `script.js` et `style.css` dans un éditeur de texte (Bloc-notes, TextEdit), collez-les dans un chat (ChatGPT, Claude) avec votre liste, et demandez les fichiers corrigés. Remplacez les fichiers, puis rouvrez `index.html`.
 4. **Dernière étape, l'autocomplétion** :
 
 ```
@@ -42,7 +43,7 @@ et affiche l'attribution « © contributeurs OpenStreetMap ».
 
 ## La solution
 
-La version réparée, avec les sept défauts expliqués : <https://plateforme-cours-three.vercel.app/ux/ux-ia/demos/formulaire-adresse/>
+La version réparée, avec les six défauts expliqués, et l'autocomplétion en plus : <https://plateforme-cours-three.vercel.app/ux/ux-ia/demos/formulaire-adresse/>
 
 ## C'est réussi si
 

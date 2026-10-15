@@ -16,7 +16,7 @@ L'agent récupère lui-même ce dépôt, ouvre le bon dossier, lance ce qu'il fa
 |---|---|---|---|
 | [`01-audit-tilleul`](01-audit-tilleul/) | Auditer une boutique en ligne, avec et sans IA | 30 min | Les six blocs |
 | [`02-formulaire-adresse`](02-formulaire-adresse/) | Réparer un formulaire d'adresse avec l'IA | 30 min | Les six blocs |
-| [`bonus-affiche-promo`](bonus-affiche-promo/) | Bonus : une affiche promo qui se lit en 3 secondes | 20 min | Design system, microcopie |
+| [`bonus-affiche`](bonus-affiche/) | Bonus : une affiche qui se lit en 3 secondes | 20 min | Design system, microcopie |
 
 Chaque dossier contient un `README.md` : l'objectif, le prompt à copier, les étapes, et comment savoir si c'est réussi.
 

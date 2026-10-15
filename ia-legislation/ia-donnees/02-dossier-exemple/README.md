@@ -1,4 +1,4 @@
-# Le dossier de Mme Fictive : à vous de choisir
+# Le dossier Exemple : à vous de choisir
 
 **Objectif** : traiter un dossier sensible étape par étape, et voir quels risques chaque choix allume : transfert à l'étranger, secret professionnel, erreur non relue…
 
@@ -6,10 +6,10 @@
 
 ## 1. La démonstration en ligne
 
-Ouvrez [le dossier de Mme Fictive](https://plateforme-cours-three.vercel.app/ia-legislation/ia-donnees/demos/dossier-mme-fictive/).
+Ouvrez [le dossier Exemple](https://plateforme-cours-three.vercel.app/ia-legislation/ia-donnees/demos/dossier-exemple/). C'est le même cas que les scans de l'exercice 01 : M. Jean Exemple, blessé au poignet au travail, dont l'assurance refuse de payer.
 
 1. Faites vos quatre choix : lire le rapport, mettre le message vocal par écrit, rédiger, envoyer.
-2. À droite, cliquez sur chaque risque allumé : ce qu'il veut dire, la loi, et qui en répond.
+2. Dans « Ce que vous risquez », cliquez sur chaque risque allumé : ce qu'il veut dire, la loi, et qui en répond.
 3. Avec **Comparer avec**, voyez la version la plus rapide, puis la version sûre. Même nombre de clics.
 
 ## 2. À vous : votre propre dossier

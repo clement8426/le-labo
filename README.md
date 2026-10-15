@@ -21,6 +21,18 @@ L'arborescence suit celle du site : `thème/cours/exercice`.
 - **Tout le dépôt** : bouton vert **Code**, puis **Download ZIP**.
 - **Avec un agent IA** (Claude Code, Codex, l'application ChatGPT…) : chaque exercice contient un **prompt à copier-coller**. L'agent récupère le dépôt, ouvre le bon dossier et lance ce qu'il faut. Vous n'avez pas besoin du terminal.
 
+## Par où commencer ?
+
+Chaque exercice dit ce qu'il demande. En résumé :
+
+| Ce qu'il vous faut | Exercices |
+|---|---|
+| **Rien à installer** : un navigateur | UX × IA : Tilleul (étapes 1 et 3), l'affiche. IA et données : le dossier Exemple, « Puis-je l'envoyer ? », la réidentification. |
+| **Un chat gratuit** (ChatGPT, Claude) | UX × IA : Tilleul (étape 2, avec des captures), le formulaire (sans agent). IA et données : le scan, version courte. |
+| **Un agent IA** (Claude Code, Codex…) | UX × IA : le formulaire, plus confortable. IA et données : le scan, version complète. |
+
+Vous débutez ? Commencez par un exercice qui ne demande rien à installer, comme Tilleul, ou « Puis-je l'envoyer ? ».
+
 ## Les règles du Labo
 
 1. **Uniquement des données fictives.** Les personnes, les entreprises et les documents des exercices sont inventés. N'y mettez jamais les vôtres.

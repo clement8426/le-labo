@@ -8,6 +8,7 @@ Ils marchent mieux avec un **agent** qui peut ouvrir le site lui-même (Claude C
 ```
 Avant de commencer, voici le contexte.
 - Le site : [adresse, ou dossier du code].
+- L'intention : [ce qui est voulu dans le design, par exemple « un seul style de titre », « des boutons arrondis »].
 - La cible : [qui, quel âge, quelle aisance avec le numérique, sur quel appareil].
 - L'objectif principal d'un visiteur : [acheter, réserver, s'inscrire…].
 - Le ton de la marque : [tutoiement ou vouvoiement, sérieux ou léger] ; exemples : « [phrase 1] », « [phrase 2] ».
@@ -45,7 +46,7 @@ Explique chaque erreur simplement et dis qui elle gêne.
 Vérifie que chaque texte alternatif décrit vraiment son image. Puis corrige.
 ```
 
-**Bon à savoir** : un texte alternatif « image » passe l'audit automatique. Là, l'IA fait mieux que l'outil.
+**Bon à savoir** : une image décrite « image », ou un champ étiqueté « Champ 1 », passent l'audit automatique : le texte existe, mais ne dit rien. Là, l'IA fait mieux que l'outil.
 
 ## 4. Analyse comportementale
 

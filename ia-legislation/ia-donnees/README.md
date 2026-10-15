@@ -11,7 +11,7 @@ Une étude d'avocats fictive à Neuchâtel, avec des clients en Suisse, en Franc
 | Dossier | Exercice | Durée |
 |---|---|---|
 | [`01-du-scan-au-compte-rendu`](01-du-scan-au-compte-rendu/) | Lire un scan et transcrire une note vocale sans que rien ne quitte l'ordinateur | 30 min |
-| [`02-dossier-mme-fictive`](02-dossier-mme-fictive/) | Choisir, étape par étape, où envoyer chaque pièce d'un dossier | 20 min |
+| [`02-dossier-exemple`](02-dossier-exemple/) | Choisir, étape par étape, où envoyer chaque pièce d'un dossier | 20 min |
 | [`03-puis-je-l-envoyer`](03-puis-je-l-envoyer/) | Trier douze fichiers de tous formats : vert, orange ou rouge ? | 15 min |
 | [`bonus-reidentification`](bonus-reidentification/) | Bonus : retrouver une personne « anonymisée », puis la protéger | 15 min |
 

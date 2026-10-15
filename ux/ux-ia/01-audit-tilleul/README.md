@@ -39,6 +39,8 @@ Pour chaque défaut : la page, ce qui gêne, qui ça gêne, le bloc, et si c'est
 
 L'agent doit s'arrêter avant de valider la commande, même ici.
 
+**Pas d'agent ?** Faites cette étape avec un chat gratuit (ChatGPT, Claude) : envoyez-lui une capture d'écran de chaque page, avec les clés et le prompt du bloc. Il verra moins de choses qu'un agent (ni le clavier, ni le code), et c'est très bien : notez ce qu'il rate.
+
 ## Étape 3 : la solution (5 min)
 
 Ouvrez Tilleul **avec le mode cours** : il révèle les douze défauts un par un.
