@@ -10,6 +10,7 @@ Les cours en ligne (diapos, démonstrations, sources et lexique) : [plateforme-c
 |---|---|---|---|
 | UX et design | UX × IA | [`ux/ux-ia`](ux/ux-ia/) | En ligne |
 | IA et législation | IA, données et responsabilité | [`ia-legislation/ia-donnees`](ia-legislation/ia-donnees/) | En ligne |
+| IA et législation | Débuter avec une IA souveraine | [`ia-legislation/ia-souveraine`](ia-legislation/ia-souveraine/) | En préparation |
 | Développement | Une app web et mobile, hébergée en Suisse | [`developpement/app-hebergee-suisse`](developpement/app-hebergee-suisse/) | En préparation |
 | Développement | Une boutique en ligne avec WordPress | [`developpement/wordpress-e-commerce`](developpement/wordpress-e-commerce/) | En préparation |
 
