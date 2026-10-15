@@ -1,6 +1,6 @@
 # Le Labo : les exercices
 
-Les exercices des cours du **Labo**, à refaire chez vous, seul ou en groupe. En cours, ils sont montrés en démonstration ; ici, c'est vous qui les faites.
+Les exercices des cours du **Labo**, à faire seul ou en groupe : chacun se suit pas à pas.
 
 Les cours en ligne (diapos, démonstrations, sources et lexique) : [plateforme-cours-three.vercel.app](https://plateforme-cours-three.vercel.app/).
 

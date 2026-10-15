@@ -1,7 +1,6 @@
 # UX × IA : les exercices
 
-Les exercices du cours **UX × IA** de Clément Bastien, à refaire chez vous, seul ou en groupe.
-En cours, ils sont montrés en démonstration. Ici, c'est vous qui les faites.
+Les exercices du cours **UX × IA** de Clément Bastien, à faire seul ou en groupe : chacun se suit pas à pas.
 
 Le cours en ligne : diapos, démonstrations, sources et lexique sur [plateforme-cours-three.vercel.app](https://plateforme-cours-three.vercel.app/ux/ux-ia/).
 
