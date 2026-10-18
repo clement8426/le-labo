@@ -1,8 +1,8 @@
 # Exercice 2 : réparer un formulaire d'adresse avec l'IA
 
-**Durée** : 30 minutes. **Blocs** : les six, un défaut par bloc.
+**Durée** : 30 minutes. **Blocs** : les six.
 
-Atelier Rayon est une boutique fictive. Son formulaire d'adresse est très soigné à l'écran… et cache un défaut par bloc du cours. Il n'envoie aucune donnée.
+Atelier Rayon est une boutique fictive. Son formulaire d'adresse est très soigné à l'écran… et cache six défauts, répartis sur les blocs du cours. Certains touchent plusieurs blocs : la grille d'audit le permet. Il n'envoie aucune donnée.
 
 ## Le prompt à copier dans votre agent
 
@@ -18,7 +18,7 @@ Sans agent : téléchargez le dépôt (bouton « Code », puis « Download ZIP �
 
 ## Les étapes
 
-1. **Remplissez le formulaire**, chrono lancé, avec une adresse **fictive** en Suisse. Jamais vos vraies coordonnées.
+1. **Remplissez le formulaire** avec une adresse **fictive** en Suisse. Jamais vos vraies coordonnées. Facultatif : relevez votre temps de remplissage.
 2. **Notez tout ce qui vous gêne**, même un détail : ce qui ralentit, ce qui fait douter, ce qui énerve. L'écran est soigné : cherchez ailleurs.
 3. **Corrigez avec l'IA** : donnez à votre agent les clés de [`../prompts/six-blocs.md`](../prompts/six-blocs.md) et la liste de ce qui vous a gêné, puis demandez-lui de corriger **défaut par défaut**.
    - **Pas d'agent ?** Ouvrez `index.html`, `script.js` et `style.css` dans un éditeur de texte (Bloc-notes, TextEdit), collez-les dans un chat (ChatGPT, Claude) avec votre liste, et demandez les fichiers corrigés. Remplacez les fichiers, puis rouvrez `index.html`.
@@ -34,7 +34,7 @@ utilisable au clavier, garde la saisie manuelle possible si rien ne convient,
 et affiche l'attribution « © contributeurs OpenStreetMap ».
 ```
 
-5. **Refaites le chrono** avec la version corrigée.
+5. **Refaites l'essai** avec la version corrigée. Facultatif : comparez le temps, les erreurs et les ressaisies. Le second passage profite de la familiarisation : ces essais servent à apprendre, pas à prouver.
 
 ## Bon à savoir
 
@@ -48,5 +48,5 @@ La version réparée, avec les six défauts expliqués, et l'autocomplétion en 
 ## C'est réussi si
 
 - Vous avez trouvé au moins un défaut dans quatre blocs différents.
-- La version corrigée se remplit plus vite que la première.
+- Aucune information n'est à ressaisir inutilement.
 - Elle reste utilisable au clavier seul, et chaque erreur dit quoi corriger.

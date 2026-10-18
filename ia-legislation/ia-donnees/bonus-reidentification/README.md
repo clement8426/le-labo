@@ -10,7 +10,7 @@ Ouvrez [la réidentification](https://plateforme-cours-three.vercel.app/ia-legis
 
 1. **Retrouver** : cliquez sur les mots surlignés du compte rendu. Les habitants de l'annuaire qui ne correspondent plus s'effacent. Combien d'indices faut-il ?
 2. Essayez **la date seule** : un message public suffit.
-3. **Protéger** : rendez chaque indice moins précis, jusqu'à ce qu'au moins cinq personnes correspondent.
+3. **Protéger** : rendez chaque indice moins précis, jusqu'à ce qu'au moins cinq personnes correspondent. Le genre aussi est un indice : « la patiente » écarte tous les hommes.
 
 ## 2. À vous : anonymiser un texte
 

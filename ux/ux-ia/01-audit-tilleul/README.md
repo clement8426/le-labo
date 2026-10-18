@@ -34,7 +34,8 @@ Pour chaque défaut : la page, ce qui gêne, qui ça gêne, le bloc, et si c'est
 ## Étape 2 : avec un agent IA (15 min)
 
 1. Collez d'abord **les clés** de [`../prompts/six-blocs.md`](../prompts/six-blocs.md), avec cette cible : *« des personnes de 30 à 60 ans qui achètent un cadeau, surtout sur téléphone »*.
-2. Lancez les prompts des six blocs, un par un.
+2. Lancez les prompts des six blocs, un par un, **en mode audit : ne modifiez rien**. Tilleul est une boutique d'exemple dont vous n'avez pas le code : retirez « Puis corrige » du prompt d'accessibilité.
+   - Ce que l'agent ne peut pas vérifier (données de visite réelles, clavier, temps de réponse) : qu'il écrive **« non vérifiable »** et propose le contrôle à faire. Le bloc 4 demande des données réelles de visite : sur Tilleul, notez-le « non vérifiable » plutôt que de laisser l'agent en inventer.
 3. Ajoutez à votre grille ce que l'agent a trouvé et que vous aviez raté, **et ce qu'il a raté**.
 
 L'agent doit s'arrêter avant de valider la commande, même ici.
@@ -50,4 +51,4 @@ Combien en aviez-vous trouvé seul ? Combien avec l'agent ?
 
 - Vous avez au moins un défaut dans chacun des six blocs.
 - Pour chaque défaut, vous savez dire **qui** il gêne.
-- Vous savez citer un défaut que l'IA a trouvé et vous non, et un que vous avez trouvé et l'IA non.
+- Vous avez comparé votre audit et celui de l'agent, et expliqué un accord ou un désaccord à partir d'une preuve.

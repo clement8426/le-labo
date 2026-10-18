@@ -17,7 +17,7 @@ Camille, présidente d'une association de quartier à Neuchâtel, vous demande u
 
 ## Avec l'IA : construire plutôt que générer
 
-Une IA d'images régénère tout en pixels : le texte se déforme, le logo change, et on ne peut plus rien modifier.
+Une image générée peut être retouchée, mais elle ne sépare généralement pas le texte et les objets comme une maquette : pour corriger précisément le texte et la disposition, privilégiez un document à calques éditables.
 Mieux : faire **construire** l'affiche par un agent relié à Penpot ou Figma (par MCP), avec de vrais textes modifiables.
 
 ```
@@ -31,6 +31,6 @@ L'IA d'images reste utile pour les ingrédients : une ambiance, une texture, un 
 
 ## C'est réussi si
 
-- Deux personnes sur trois retiennent quoi, quand et où en 3 secondes.
+- Deux personnes sur trois retiennent quoi, quand et où en 3 secondes (critère de l'exercice, pas une validation générale).
 - On voit tout de suite ce qu'on lit en premier, puis en deuxième.
 - L'affiche ne ressemble pas à toutes les autres (rubans, ardoises, lettrage au pinceau…).

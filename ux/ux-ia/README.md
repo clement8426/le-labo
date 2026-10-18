@@ -22,14 +22,14 @@ Chaque dossier contient un `README.md` : l'objectif, le prompt à copier, les é
 ## Ce qu'il vous faut
 
 - Un navigateur.
-- Un agent IA. Les offres à environ 20 francs par mois (Claude Pro, ChatGPT Plus) incluent un agent qui peut ouvrir un site et modifier des fichiers (Claude Code, Codex).
+- Un agent IA. Les offres à 20 dollars US par mois, avec quota d'utilisation (Claude Pro, ChatGPT Plus), incluent un agent qui peut ouvrir un site et modifier des fichiers (Claude Code, Codex). Vérifiez le prix local et les conditions avant de vous abonner.
 - Les prompts du cours, un par bloc : [`prompts/six-blocs.md`](prompts/six-blocs.md).
 
 ## Avant de lancer un agent IA
 
 1. **Donnez-lui les clés** : l'intention, la cible, le ton, les pages à regarder. Sans elles, il juge pour un utilisateur moyen qui n'existe pas.
 2. **Pas de vraies données** : adresses et coordonnées fictives, toujours.
-3. **Sur un site en ligne qui n'est pas le vôtre**, l'agent s'arrête avant chaque envoi (formulaire, commande, inscription) et ne contourne aucune protection anti-robots.
+3. **Sur un site en ligne qui n'est pas le vôtre**, l'agent s'arrête avant chaque envoi (formulaire, commande, inscription) et ne contourne aucune protection anti-robots. S'arrêter avant l'envoi évite certaines actions, mais pas les statistiques de visite : préférez une copie de test.
 
 ## Les six blocs, pour mémoire
 

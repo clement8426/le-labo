@@ -31,33 +31,36 @@ Liste les incohérences avec les valeurs mesurées. Demande-moi l'intention avan
 ## 2. Friction
 
 ```
-Tu es [la cible], sur téléphone. Objectif : [acheter un vase].
+Tu es [la cible], sur téléphone. Objectif : [acheter un vase, démarrer un essai, réserver].
 Fais le parcours et arrête-toi avant de payer ou d'envoyer quoi que ce soit.
 Note chaque pop-up, hésitation, détour et étape inutile. Compte les clics.
 ```
 
-**À vérifier** : ce sont des pistes. Les utilisateurs simulés ne se comportent pas comme de vraies personnes : confirmez avec cinq vrais utilisateurs.
+**À vérifier** : ce sont des pistes. Les utilisateurs simulés ne se comportent pas comme de vraies personnes : confirmez avec de vraies personnes : cinq par groupe d'usagers pour commencer, puis on corrige et on recommence.
 
 ## 3. Accessibilité
 
 ```
 Audite ces pages avec Pa11y et Lighthouse. Parcours-les uniquement au clavier.
 Explique chaque erreur simplement et dis qui elle gêne.
-Vérifie que chaque texte alternatif décrit vraiment son image. Puis corrige.
+Vérifie que chaque image informative a un texte alternatif utile, et que les images décoratives sont ignorées. Puis corrige.
 ```
 
-**Bon à savoir** : une image décrite « image », ou un champ étiqueté « Champ 1 », passent l'audit automatique : le texte existe, mais ne dit rien. Là, l'IA fait mieux que l'outil.
+**Sans accès au code du site** (comme sur Tilleul), retirez « Puis corrige » : c'est un audit, rien à modifier.
+
+**Bon à savoir** : une image décrite « image », ou un champ étiqueté « Champ 1 », passent l'audit automatique : le texte existe, mais ne dit rien. L'IA peut aider à le repérer, à vérifier. Un contrôle avec un vrai lecteur d'écran reste nécessaire.
 
 ## 4. Analyse comportementale
 
-À utiliser avec vos données réelles (Microsoft Clarity, Hotjar), branchées à l'agent ou exportées.
+À utiliser avec les données d'usage d'un outil comme Hotjar (ou Clarity), exportées ou branchées à l'agent.
 
 ```
-Sur les 30 derniers jours, où les visiteurs sur mobile abandonnent-ils la commande ?
-Où cliquent-ils sans résultat ? Donne des hypothèses à vérifier, pas des conclusions.
+À partir de ces données d'usage, quelles pages montrent des clics sans effet
+ou des abandons sur mobile ? Distingue les constats des hypothèses.
+Si les données ne permettent pas de le mesurer, dis ce qui manque.
 ```
 
-**À vérifier** : les chiffres disent où, pas pourquoi. Et le consentement des visiteurs.
+**À vérifier** : les chiffres disent où, pas pourquoi. Ce que l'outil fournit dépend de son offre (période, métriques). Et le consentement des visiteurs.
 
 ## 5. Microcopie
 
@@ -77,4 +80,4 @@ combien de temps reste-t-on sans retour visible ? Propose un retour immédiat
 ou un squelette de chargement, sans jamais ajouter d'attente.
 ```
 
-**À vérifier** : aucune fausse attente. L'utilisateur serait-il d'accord s'il le savait ?
+**À vérifier** : aucune fausse attente. L'utilisateur serait-il d'accord s'il le savait ? Une simulation aide au diagnostic mais ne remplace pas un vrai téléphone, et ces outils web n'auditent pas une application native.

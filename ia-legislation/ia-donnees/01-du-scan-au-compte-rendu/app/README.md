@@ -45,7 +45,7 @@ Exemple observé pendant les essais : sur un audio de synthèse de 8,46 secondes
 
 Le dossier contient le code, cette documentation et `package-lock.json`, qui permet de retrouver les dépendances utilisées. `node_modules/`, `dist/` et les modèles téléchargés restent exclus par le `.gitignore` du dépôt. Les scans fictifs de l'exercice sont dans `../scans/`.
 
-Sources et licences : [Whisper (MIT)](https://github.com/openai/whisper), [modèles Vosk (Apache 2.0 pour les deux modèles choisis)](https://alphacephei.com/vosk/models), [Vosk Browser (Apache 2.0)](https://github.com/ccoreilly/vosk-browser).
+Sources et licences : [Whisper (MIT)](https://github.com/openai/whisper), [modèles Vosk (Apache 2.0 pour les deux modèles choisis)](https://alphacephei.com/vosk/models), [Vosk Browser (Apache 2.0)](https://www.npmjs.com/package/vosk-browser).
 
 ## Structure pédagogique
 
