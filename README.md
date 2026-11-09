@@ -2,7 +2,7 @@
 
 Les exercices des cours du **Labo**, à faire seul ou en groupe : chacun se suit pas à pas.
 
-Les cours en ligne (diapos, démonstrations, sources et lexique) : [plateforme-cours-three.vercel.app](https://plateforme-cours-three.vercel.app/).
+Les cours en ligne (diapos, démonstrations, sources et lexique) : [www.labonumerique.ch](https://www.labonumerique.ch/).
 
 ## Les cours
 
