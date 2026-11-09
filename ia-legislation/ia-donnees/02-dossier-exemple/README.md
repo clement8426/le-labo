@@ -6,7 +6,7 @@
 
 ## 1. La démonstration en ligne
 
-Ouvrez [le dossier Exemple](https://plateforme-cours-three.vercel.app/ia-legislation/ia-donnees/demos/dossier-exemple/). C'est le même cas que les scans de l'exercice 01 : M. Jean Exemple, blessé au poignet au travail, dont l'assurance refuse de payer.
+Ouvrez [le dossier Exemple](https://www.labonumerique.ch/ia-legislation/ia-donnees/demos/dossier-exemple/). C'est le même cas que les scans de l'exercice 01 : M. Jean Exemple, blessé au poignet au travail, dont l'assurance refuse de payer.
 
 1. Faites vos quatre choix : lire le rapport, mettre le message vocal par écrit, rédiger, envoyer.
 2. Dans « Ce que vous risquez », cliquez sur chaque risque allumé : ce qu'il veut dire, la loi, et qui en répond.

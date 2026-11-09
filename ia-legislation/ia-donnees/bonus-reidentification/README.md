@@ -6,7 +6,7 @@
 
 ## 1. La démonstration en ligne
 
-Ouvrez [la réidentification](https://plateforme-cours-three.vercel.app/ia-legislation/ia-donnees/demos/reidentification/).
+Ouvrez [la réidentification](https://www.labonumerique.ch/ia-legislation/ia-donnees/demos/reidentification/).
 
 1. **Retrouver** : cliquez sur les mots surlignés du compte rendu. Les habitants de l'annuaire qui ne correspondent plus s'effacent. Combien d'indices faut-il ?
 2. Essayez **la date seule** : un message public suffit.

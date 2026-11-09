@@ -43,7 +43,7 @@ et affiche l'attribution « © contributeurs OpenStreetMap ».
 
 ## La solution
 
-La version réparée, avec les six défauts expliqués, et l'autocomplétion en plus : <https://plateforme-cours-three.vercel.app/ux/ux-ia/demos/formulaire-adresse/>
+La version réparée, avec les six défauts expliqués, et l'autocomplétion en plus : <https://www.labonumerique.ch/ux/ux-ia/demos/formulaire-adresse/>
 
 ## C'est réussi si
 

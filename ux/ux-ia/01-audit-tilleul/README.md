@@ -4,8 +4,8 @@
 
 Tilleul est une boutique de céramiques fictive, très soignée… et pleine de défauts d'UX. Elle est en ligne, rien à installer :
 
-- **Sans aide** : <https://plateforme-cours-three.vercel.app/tilleul/?cours=non>
-- **Avec le mode cours** (la solution) : <https://plateforme-cours-three.vercel.app/tilleul/>
+- **Sans aide** : <https://www.labonumerique.ch/tilleul/?cours=non>
+- **Avec le mode cours** (la solution) : <https://www.labonumerique.ch/tilleul/>
 
 Aucune commande n'est réelle, aucune donnée n'est envoyée.
 
@@ -15,7 +15,7 @@ Pour l'étape 2. Rien à installer : la boutique est en ligne.
 
 ```
 Tu vas m'aider à auditer l'UX d'une boutique en ligne fictive, Tilleul :
-https://plateforme-cours-three.vercel.app/tilleul/?cours=non
+https://www.labonumerique.ch/tilleul/?cours=non
 Lis d'abord les consignes et les prompts du cours dans ce dépôt :
 https://github.com/clement8426/le-labo (dossier ux/ux-ia/01-audit-tilleul et fichier ux/ux-ia/prompts/six-blocs.md).
 La cible : des personnes de 30 à 60 ans qui achètent un cadeau, surtout sur téléphone.

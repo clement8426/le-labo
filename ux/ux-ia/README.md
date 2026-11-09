@@ -2,7 +2,7 @@
 
 Les exercices du cours **UX × IA** de Clément Bastien, à faire seul ou en groupe : chacun se suit pas à pas.
 
-Le cours en ligne : diapos, démonstrations, sources et lexique sur [plateforme-cours-three.vercel.app](https://plateforme-cours-three.vercel.app/ux/ux-ia/).
+Le cours en ligne : diapos, démonstrations, sources et lexique sur [www.labonumerique.ch](https://www.labonumerique.ch/ux/ux-ia/).
 
 ## Pas de terminal : votre agent s'occupe de tout
 

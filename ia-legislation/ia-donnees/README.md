@@ -1,6 +1,6 @@
 # IA, données et responsabilité : les exercices
 
-Ce que l'on peut confier à une IA, ce que l'on ne doit pas lui confier, et ce que l'on risque. Le cours en ligne : [plateforme-cours-three.vercel.app/ia-legislation/ia-donnees](https://plateforme-cours-three.vercel.app/ia-legislation/ia-donnees/).
+Ce que l'on peut confier à une IA, ce que l'on ne doit pas lui confier, et ce que l'on risque. Le cours en ligne : [www.labonumerique.ch/ia-legislation/ia-donnees](https://www.labonumerique.ch/ia-legislation/ia-donnees/).
 
 ## Le fil rouge
 

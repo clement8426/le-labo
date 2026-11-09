@@ -37,7 +37,7 @@ Le dossier [`fichiers/`](fichiers/) contient douze documents de l'étude d'avoca
 
 1. **Ouvrez chaque fichier** et lisez-le vraiment, jusqu'au bout et jusqu'à l'arrière-plan.
 2. **Posez les trois questions**, dans l'ordre, et notez la couleur et l'outil qui convient.
-3. **Vérifiez vos réponses** avec la version en ligne : [Puis-je l'envoyer à une IA ?](https://plateforme-cours-three.vercel.app/ia-legislation/ia-donnees/demos/puis-je-l-envoyer/). Elle explique chaque cas.
+3. **Vérifiez vos réponses** avec la version en ligne : [Puis-je l'envoyer à une IA ?](https://www.labonumerique.ch/ia-legislation/ia-donnees/demos/puis-je-l-envoyer/). Elle explique chaque cas.
 4. **Pour les fichiers rouges ou orange**, cherchez ce qu'il faudrait changer pour qu'on puisse les envoyer sans précaution (verts) : retirer une colonne, recadrer une capture, généraliser un CV. Est-ce toujours possible ?
 
 ## C'est réussi si…
